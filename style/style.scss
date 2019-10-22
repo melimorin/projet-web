@@ -1,0 +1,85 @@
+$backgroundColor: #f3f5f5;
+$turquoise: #88c1cd;
+$gold: #967b42;
+$darkText: #292826;
+$lightText: #f3f5f5;
+$textFont: 'Lora', serif;
+$subtitleFont: 'Open Sans', sans-serif;
+$linkFont: 'Lora', serif;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $backgroundColor;
+}
+
+.text {
+    font-size: 10px;
+    font-weight: 800;
+}
+
+.goldButton {
+    width: 75px;
+    border: 1px solid transparent;
+    background-color: $gold;
+    font-family: $subtitleFont;
+    color: $lightText;
+    font-size: 8px;
+    font-weight: 400;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1200px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    a {
+        text-decoration: none;
+        margin: 20px;
+        color: $darkText;
+        font-family: $textFont;
+        font-weight: 800;
+        font-size: 10px;
+    }
+    
+    
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: auto;
+    min-height: 100%;
+    width: 100%;
+    background-color: $turquoise;
+    padding: 25px;
+    font-family: $textFont;
+    color: $darkText;
+    a {
+        text-decoration: none;
+        img {
+            width: 15px;
+        }
+    }
+    
+    
+}
+
+.logo {
+    img {
+        width: 50px;
+    }
+
+}

@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #f3f5f5;
+}
+
+.text {
+  font-size: 10px;
+  font-weight: 800;
+}
+
+.goldButton {
+  width: 75px;
+  border: 1px solid transparent;
+  background-color: #967b42;
+  font-family: "Open Sans", sans-serif;
+  color: #f3f5f5;
+  font-size: 8px;
+  font-weight: 400;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1200px;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  margin: 20px;
+  color: #292826;
+  font-family: "Lora", serif;
+  font-weight: 800;
+  font-size: 10px;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: auto;
+  min-height: 100%;
+  width: 100%;
+  background-color: #88c1cd;
+  padding: 25px;
+  font-family: "Lora", serif;
+  color: #292826;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer a img {
+  width: 15px;
+}
+
+.logo img {
+  width: 50px;
+}
+/*# sourceMappingURL=style.css.map */
