@@ -36,7 +36,7 @@
     <div class="derniere-compo">
         <div class="container container-compo">
             <div class="text-derniere-compo">
-                <h2 class="titre espace-titre">Derniere composition</h2>
+                <h2 class="titre espace-titre ">Derniere composition</h2>
                 <p class="text espace-titre">Nous vous proposons de decouvrir les nouvelles trames sonores.</p>
             </div>
             <div class="img-derniere-compo espace-titre">
@@ -49,7 +49,15 @@
     </div>
 <!-- a propos - section -->
         <div class="container-propos">
-            <h2 class="titre espace-titre">A propos</h2>
+            <div class="container">
+                <h2 class="titre-light espace-titre">A propos</h2>
+            </div>
+                <div class="propos-texte text-light">
+                    <p>text</p>
+                    <p>text</p>
+                    <p>text</p>
+                    <p>text</p>
+                </div>
         </div>
 
 <!-- Footer -->
