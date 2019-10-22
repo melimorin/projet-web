@@ -17,14 +17,31 @@ body {
     background-color: $backgroundColor;
 }
 
+.titre {
+    font-family: $textFont;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
 .text {
-    font-size: 10px;
+    font-family: $textFont;
+    font-size: 20px;
+    font-weight: 400;
+}
+.espace-titre {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.text-gras {
+    font-family: $textFont;
+    font-size: 14px;
     font-weight: 800;
 }
 
 .goldButton {
     width: 75px;
-    border: 1px solid transparent;
+    border: 2px solid #967b42;
     background-color: $gold;
     font-family: $subtitleFont;
     color: $lightText;
@@ -51,35 +68,77 @@ body {
         color: $darkText;
         font-family: $textFont;
         font-weight: 800;
-        font-size: 10px;
     }
     
     
 }
-.footer {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-    margin-bottom: auto;
-    min-height: 100%;
-    width: 100%;
-    background-color: $turquoise;
-    padding: 25px;
-    font-family: $textFont;
-    color: $darkText;
-    a {
-        text-decoration: none;
-        img {
-            width: 15px;
-        }
-    }
-    
-    
-}
-
 .logo {
     img {
         width: 50px;
     }
 
 }
+
+.hero {
+    background-color: $turquoise;
+}
+
+.container-hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .text-hero {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+.container-compo {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   .text-derniere-compo {
+    max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+   }
+}
+.img-derniere-compo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    img {
+        width: 25%;
+    }
+
+}
+    
+.container-propos {
+        background-image: url("/images/gabriel-fondnoir.png");
+        height: 75%;
+        width: 100%;
+}
+.footer {
+    background-color: $turquoise;
+    min-height: 100%;
+    max-width: 100%;
+    
+    a {
+        text-decoration: none;
+        img {
+            width: 15px;
+        }
+    }
+}
+.text-footer {
+    padding: 25px;
+    font-family: $textFont;
+    color: $darkText;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+

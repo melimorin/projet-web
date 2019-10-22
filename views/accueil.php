@@ -11,14 +11,49 @@
 </head>
 <body>
     <div class="container">
+
+<!-- Barre de naviguation -->
         <?php 
             include("views/include/navbar.php");
         ?>
     
+    </div>
 
-    
+<!-- Hero -->
+    <div class="hero">
+        <div class="container-hero">
+            <div class="text-hero">
+                <h2 class="titre">Compositeur, mélodiste et <br> arrangeur de musique inspiré.</h2>
+                <p class="text">GABRIEL FORION partage sa vie <br> entre la chanson et la musique de film depuis plusieurs années.</p>
+            </div>
+            <div class="photo-hero">
+                <img src="images/pianiste.png" alt="">
+            </div>
+        </div>
+
+    </div>
+<!-- Derniere composition - section -->
+    <div class="derniere-compo">
+        <div class="container container-compo">
+            <div class="text-derniere-compo">
+                <h2 class="titre espace-titre">Derniere composition</h2>
+                <p class="text espace-titre">Nous vous proposons de decouvrir les nouvelles trames sonores.</p>
+            </div>
+            <div class="img-derniere-compo espace-titre">
+                <img src="images/SicSicSic.png" alt="">
+                <img src="images/AlexJoset.png" alt="">
+                <img src="images/MadamRazzal.png" alt="">
+            </div>
+        </div>
+
+    </div>
+<!-- a propos - section -->
+        <div class="container-propos">
+            <h2 class="titre espace-titre">A propos</h2>
+        </div>
+
+<!-- Footer -->
         <?php 
             include("views/include/footer.php");
         ?>
-    </div>
 </body>

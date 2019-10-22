@@ -9,14 +9,33 @@ body {
   background-color: #f3f5f5;
 }
 
+.titre {
+  font-family: "Lora", serif;
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
 .text {
-  font-size: 10px;
+  font-family: "Lora", serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.espace-titre {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.text-gras {
+  font-family: "Lora", serif;
+  font-size: 14px;
   font-weight: 800;
 }
 
 .goldButton {
   width: 75px;
-  border: 1px solid transparent;
+  border: 2px solid #967b42;
   background-color: #967b42;
   font-family: "Open Sans", sans-serif;
   color: #f3f5f5;
@@ -49,24 +68,87 @@ body {
   color: #292826;
   font-family: "Lora", serif;
   font-weight: 800;
-  font-size: 10px;
 }
 
-.footer {
+.logo img {
+  width: 50px;
+}
+
+.hero {
+  background-color: #88c1cd;
+}
+
+.container-hero {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: 20px;
-  margin-bottom: auto;
-  min-height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container-hero .text-hero {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-compo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container-compo .text-derniere-compo {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-derniere-compo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.img-derniere-compo img {
+  width: 25%;
+}
+
+.container-propos {
+  background-image: url("/images/gabriel-fondnoir.png");
+  height: 75%;
   width: 100%;
+}
+
+.footer {
   background-color: #88c1cd;
-  padding: 25px;
-  font-family: "Lora", serif;
-  color: #292826;
+  min-height: 100%;
+  max-width: 100%;
 }
 
 .footer a {
@@ -77,7 +159,16 @@ body {
   width: 15px;
 }
 
-.logo img {
-  width: 50px;
+.text-footer {
+  padding: 25px;
+  font-family: "Lora", serif;
+  color: #292826;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 20px;
 }
 /*# sourceMappingURL=style.css.map */
