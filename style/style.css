@@ -44,27 +44,32 @@ body {
   margin-top: 30px;
 }
 
+.espace-texte {
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
 .text-gras {
   font-family: "Lora", serif;
   font-size: 14px;
   font-weight: 800;
 }
 
-.goldButton {
+.container-button {
   width: 75px;
   border: 2px solid #967b42;
   background-color: #967b42;
+  margin-top: 15px;
   font-family: "Open Sans", sans-serif;
   color: #f3f5f5;
-  font-size: 8px;
+  font-size: 14px;
   font-weight: 400;
-  padding-left: 2px;
-  padding-right: 2px;
 }
 
 .container {
   margin-right: auto;
   margin-left: auto;
+  width: 100%;
   max-width: 1200px;
 }
 
@@ -117,6 +122,15 @@ body {
   margin-right: auto;
 }
 
+.photo-hero {
+  width: 50%;
+  line-height: 0px;
+}
+
+.photo-hero img {
+  width: 100%;
+}
+
 .container-compo {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -131,7 +145,7 @@ body {
 }
 
 .container-compo .text-derniere-compo {
-  max-width: 100%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -154,15 +168,14 @@ body {
 }
 
 .img-derniere-compo img {
-  width: 25%;
+  max-width: 25%;
 }
 
 .container-propos {
   background-image: url("../images/gabriel-fondnoir.png");
   background-size: cover;
-  background-position: center;
+  background-position: 70%;
   background-repeat: no-repeat;
-  height: 460px;
   width: 100%;
   z-index: -1;
   display: -webkit-box;
@@ -172,6 +185,11 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  padding: 20px;
+}
+
+.container-propos h2 {
+  text-align: center;
 }
 
 .propos-texte {
@@ -185,7 +203,6 @@ body {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  margin-left: 50px;
 }
 
 .footer {
@@ -212,6 +229,5 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: 20px;
 }
 /*# sourceMappingURL=style.css.map */

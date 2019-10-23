@@ -49,27 +49,33 @@ body{
     margin-bottom: 30px;
     margin-top: 30px;
 }
+.espace-texte {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
 .text-gras {
     font-family: $textFont;
     font-size: 14px;
     font-weight: 800;
 }
-
-.goldButton {
+.container-button {
     width: 75px;
     border: 2px solid #967b42;
     background-color: $gold;
+    margin-top: 15px;
     font-family: $subtitleFont;
     color: $lightText;
-    font-size: 8px;
+    font-size: 14px;;
     font-weight: 400;
-    padding-left: 2px;
-    padding-right: 2px;
+    a {
+
+    }
 }
 
 .container {
     margin-right: auto;
     margin-left: auto;
+    width: 100%;
     max-width: 1200px;
 }
 
@@ -110,12 +116,19 @@ body{
         margin-right: auto;
     }
 }
+.photo-hero {
+    width: 50%;
+    line-height: 0px;
+    img {
+        width: 100%;
+    }
+}
 .container-compo {
    display: flex;
    justify-content: center;
    flex-direction: column;
    .text-derniere-compo {
-        max-width: 100%;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
         text-align: center;
@@ -127,7 +140,7 @@ body{
     justify-content: space-between;
     align-items: center;
     img {
-        width: 25%;
+        max-width: 25%;
     }
 
 }
@@ -135,19 +148,21 @@ body{
 .container-propos {
         background-image: url("../images/gabriel-fondnoir.png");
         background-size: cover;
-        background-position: center;
+        background-position: 70%;
         background-repeat: no-repeat;
-        height: 460px;
         width: 100%;
         z-index: -1;
         display: flex;
         flex-direction: column;
+        padding: 20px;
+        h2 {
+            text-align: center;
+        }
     }
     .propos-texte {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        margin-left: 50px;
     }
     .footer {
     background-color: $turquoise;
@@ -167,7 +182,6 @@ body{
     color: $darkText;
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
 
 }
 
