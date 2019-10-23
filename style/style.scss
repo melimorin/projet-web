@@ -150,6 +150,10 @@ body{
     
 }
 
+.sous-ligne:hover {
+    border-bottom: 1px solid $darkText;
+}
+
 .overlay:hover {
     filter: grayscale(80%);
     transition: 0.5s;
@@ -160,10 +164,28 @@ body{
     flex-direction: row;
     align-items: center;
     .compo-individuel {
+        position: relative;
         width: 20%;
         margin: 0px 2.5%;
         img, audio {
             width: 100%;
+        }
+        .black-overlay {
+            position: absolute;
+            top: 0;
+            bottom: 62px;
+            left: 0;
+            right: 0;
+            background-color: rgb(0, 0, 0);
+            opacity: 0;
+            color: $lightText;
+            transition: opacity 200ms ease-out;
+        }
+        &:hover {
+            .black-overlay {
+                transition: opacity 200ms ease-out;
+                opacity: 0.85;
+            }
         }
     }
 
@@ -187,6 +209,9 @@ body{
         h2 {
             text-align: center;
         }
+    }
+    .texte-propos {
+        padding-right: 500px;
     }
     .propos-texte {
         display: flex;

@@ -180,6 +180,10 @@ body {
   max-width: 25%;
 }
 
+.sous-ligne:hover {
+  border-bottom: 1px solid #292826;
+}
+
 .overlay:hover {
   -webkit-filter: grayscale(80%);
           filter: grayscale(80%);
@@ -202,12 +206,32 @@ body {
 }
 
 .img-compo .compo-individuel {
+  position: relative;
   width: 20%;
   margin: 0px 2.5%;
 }
 
 .img-compo .compo-individuel img, .img-compo .compo-individuel audio {
   width: 100%;
+}
+
+.img-compo .compo-individuel .black-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 62px;
+  left: 0;
+  right: 0;
+  background-color: black;
+  opacity: 0;
+  color: #f3f5f5;
+  -webkit-transition: opacity 200ms ease-out;
+  transition: opacity 200ms ease-out;
+}
+
+.img-compo .compo-individuel:hover .black-overlay {
+  -webkit-transition: opacity 200ms ease-out;
+  transition: opacity 200ms ease-out;
+  opacity: 0.85;
 }
 
 .fleche {
@@ -234,6 +258,10 @@ body {
 
 .container-propos h2 {
   text-align: center;
+}
+
+.texte-propos {
+  padding-right: 500px;
 }
 
 .propos-texte {

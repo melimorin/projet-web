@@ -49,7 +49,7 @@
     </div>
 <!-- a propos - section -->
         <div class="container-propos">
-            <div class="container">
+            <div class="container texte-propos">
                 <h2 class="titre-light espace-titre">A propos</h2>
                 <div class="propos-texte text-light">
                     <p class="espace-texte">Stagiaire à Sienne (Italie) auprès du grand ENNIO MORRICONE, il a remporté 6 Félix et Jutra et a été nominé plus de 21 fois aux galas Adisq, Jutra et Genie Awards depuis l'année 2000. ARRANGEUR DE L'ANNÉE en 2010 dve même qu'en 2011 pour ses albums « Sun Heat » et « Les Quarks ».</p>

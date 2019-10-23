@@ -30,24 +30,36 @@
             <img class="fleche" src="images/back.svg" alt="">
             <div class="compo-individuel">
                 <img src="images/SicSicSic.png" alt="">
+                <div class="black-overlay">
+                    <p>texte</p>
+                </div>
                 <audio controls>
                     <source src="audio/SicSicSic.mp3" type="audio/mpeg">
                 </audio>
             </div>
             <div class="compo-individuel">
                 <img src="images/AlexJoset.png" alt="">
+                <div class="black-overlay">
+                    <p>texte</p>
+                </div>
                 <audio controls>
                     <source src="audio/documentaire-AlexJoset.mp3" type="audio/mpeg">
                 </audio>
             </div>
             <div class="compo-individuel">
                 <img src="images/MadamRazzal.png" alt="">
+                <div class="black-overlay">
+                    <p>texte</p>
+                </div>
                 <audio controls>
                     <source src="audio/MadamRazzal.mp3" type="audio/mpeg">
                 </audio>
             </div>
             <div class="compo-individuel">
                 <img src="images/aimeFrench.png" alt="">
+                <div class="black-overlay">
+                    <p>texte</p>
+                </div>
                 <audio controls>
                     <source src="audio/AimeMoiFrench.mp3" type="audio/mpeg">
                 </audio>
