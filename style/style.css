@@ -180,6 +180,14 @@ body {
   max-width: 25%;
 }
 
+.overlay:hover {
+  -webkit-filter: grayscale(80%);
+          filter: grayscale(80%);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-image: radial-gradient(#e66465, #9198e5);
+}
+
 .img-compo {
   display: -webkit-box;
   display: -ms-flexbox;

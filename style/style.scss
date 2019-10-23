@@ -147,7 +147,13 @@ body{
     img {
         max-width: 25%;
     }
+    
+}
 
+.overlay:hover {
+    filter: grayscale(80%);
+    transition: 0.5s;
+    background-image: radial-gradient(#e66465, #9198e5);
 }
 .img-compo {
     display: flex;
@@ -162,6 +168,7 @@ body{
     }
 
 }
+
 .fleche {
     width: 50px;
     margin-top: -65px;
