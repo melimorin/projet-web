@@ -20,7 +20,7 @@
                 <input type="email">
             </form>
             <div class="container-button">
-                <a class="goldButton" href="#">Envoyer</a>
+                <a class="text-gras" href="#">Envoyer</a>
             </div>
         </div>
         

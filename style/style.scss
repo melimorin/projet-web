@@ -55,7 +55,7 @@ body{
 }
 .text-gras {
     font-family: $textFont;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 800;
 }
 .container-button {
@@ -63,11 +63,13 @@ body{
     border: 2px solid #967b42;
     background-color: $gold;
     margin-top: 15px;
-    font-family: $subtitleFont;
-    color: $lightText;
-    font-size: 14px;;
-    font-weight: 400;
     a {
+        font-family: $subtitleFont;
+        color: $lightText;
+        font-size: 14px;;
+        font-weight: 400;
+        text-decoration: none;
+        padding: 9px;
 
     }
 }
@@ -84,6 +86,9 @@ body{
     justify-content: space-between;
     margin-top: 20px;
     margin-bottom: 20px;
+    .right-bar {
+        margin-top: 15px;
+    }
     a {
         text-decoration: none;
         margin: 20px;
@@ -96,7 +101,7 @@ body{
 }
 .logo {
     img {
-        width: 50px;
+        width: 100px;
     }
 
 }
@@ -144,6 +149,23 @@ body{
     }
 
 }
+.img-compo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    .compo-individuel {
+        width: 20%;
+        margin: 0px 2.5%;
+        img, audio {
+            width: 100%;
+        }
+    }
+
+}
+.fleche {
+    width: 50px;
+    margin-top: -65px;
+}
     
 .container-propos {
         background-image: url("../images/gabriel-fondnoir.png");
@@ -172,7 +194,7 @@ body{
     a {
         text-decoration: none;
         img {
-            width: 15px;
+            width: 45px;
         }
     }
 }
