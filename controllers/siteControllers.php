@@ -15,3 +15,11 @@ function ajoutSeConnecter() {
 function ajoutAccueilAdmin() {
     include("views/accueiladmin.php");
 }
+
+function ajoutNouvelUtilisateur() {
+    include("views/nouvelUtilisateur.php");
+}
+
+function ajoutNouvelleCompo() {
+    include("views/nouvelleCompo.php");
+}

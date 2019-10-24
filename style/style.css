@@ -52,7 +52,7 @@ body {
 .text-gras {
   font-family: "Lora", serif;
   font-size: 16px;
-  font-weight: 800;
+  font-weight: normal;
 }
 
 .container-button {
@@ -62,7 +62,6 @@ body {
 }
 
 .container-button a {
-  font-family: "Open Sans", sans-serif;
   color: #f3f5f5;
   font-size: 14px;
   font-weight: 400;

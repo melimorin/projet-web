@@ -19,9 +19,9 @@
             <form action="">
                 <input type="email">
             </form>
-            <div class="container-button">
+            <span class="container-button">
                 <a class="text-gras" href="#">Envoyer</a>
-            </div>
+            </span>
         </div>
         
     </div>
