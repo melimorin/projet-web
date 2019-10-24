@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -30,24 +30,13 @@
         <div class="form-group onglet">
             <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Titre de la composition">
         </div>
-        <div class="input-group mb-3">
-        <div class="custom-file ">
-            <input type="file" class="custom-file-input" id="inputGroupFile02">
-            <label class="custom-file-label" for="inputGroupFile02">Telecharger l'image</label>
+        <div class="boite-texte">
+            <p class="text-gras">Télécharger l'image</p>
+            <input type="file" name="fileImage">
         </div>
-        <div class="input-group-append">
-            <span class="input-group-text" id="">Upload</span>
-        </div>
-        </div>
-
-        <div class="input-group mb-3">
-        <div class="custom-file ">
-            <input type="file" class="custom-file-input" id="inputGroupFile02">
-            <label class="custom-file-label" for="inputGroupFile02">Telecharger l'audio</label>
-        </div>
-        <div class="input-group-append">
-            <span class="input-group-text" id="">Upload</span>
-        </div>
+        <div class="boite-texte espace-texte">
+            <p class="text-gras">Télécharger l'audio</p>
+            <input type="file" name="fileAudio">
         </div>
     </form>
     </div>

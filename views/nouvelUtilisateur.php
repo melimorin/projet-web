@@ -23,7 +23,7 @@
     </div>
     <div class="container container-admin-color espace-titre">
       <form class="padding-boite-admin">
-        <h2 class="titre espace-titre ">Creer un nouvel utilisateur</h2>
+        <h2 class="titre espace-titre ">Créer un nouvel utilisateur</h2>
         <div class="form-group onglet">
             <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nom">
         </div>
@@ -33,7 +33,7 @@
         <div class="form-group onglet">
             <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Mot de passe">
         </div>
-        <button type="submit" class="container-button text-gras text-light padding-bouton">Creer</button>
+        <button type="submit" class="container-button text-gras text-light padding-bouton">Créer</button>
         </form>
     </div>
     <!-- Footer -->

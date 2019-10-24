@@ -67,6 +67,15 @@ body{
     font-size: 16px;
     font-weight: normal;
 }
+.boite-texte {
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding: 10px;
+}
 .container-button {
     border: 2px solid #967b42;
     background-color: $gold;
@@ -214,6 +223,18 @@ body{
 .fleche {
     width: 50px;
     margin-top: -65px;
+    z-index: 10;
+}
+
+.fleche-gauche {
+    position: absolute;
+    top: 282px;
+    left: -8px;
+}
+.fleche-droite {
+    position: absolute;
+    top: 282px;
+    right: -8px;
 }
     
 .container-propos {
@@ -275,3 +296,12 @@ body{
 
 }
 
+.img-compo {
+    transition: left 1s ease-out;
+    position: relative;
+    left: 0px;
+}
+
+.contenant-carroussel {
+    position: relative;
+}

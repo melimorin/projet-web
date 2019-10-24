@@ -8,6 +8,10 @@
     <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
     <title>Document</title>
+    <script type="module">
+		import App from "./src/App.js";
+		App.load().then(() => App.main());
+	</script>
 </head>
 <body>
     <div class="container">
@@ -26,53 +30,55 @@
                 <hr>
             </div> 
         </div>
-        <div class="img-compo espace-titre">
-            <img class="fleche" src="images/back.svg" alt="">
-            <div class="compo-individuel">
-                <img src="images/SicSicSic.png" alt="">
-                <div class="black-overlay">
-                    <h2 class="espace-titre">Sic, sic...sic</h2>
-                    <h3 class="espace-texte">Titre de la composition</h3>
-                    <p class="text-oeuvre">Gingerbread donut ice cream tart chocolate bar. Chocolate chocolate lemon drops apple pie gummies jelly. Bonbon cheesecake bear claw chocolate chocolate apple pie pudding. Halvah wafer candy jelly beans biscuit. Candy canes bonbon caramels gummi bears gummi bears gummi bears jelly beans carrot cake. Lollipop topping tootsie roll.</p>
+        <div class="contenant-carroussel">
+            <img class="fleche fleche-gauche" src="images/back.svg" alt="">
+            <img class="fleche fleche-droite" src="images/next.svg" alt="">
+            <div class="img-compo espace-titre">
+                <div class="compo-individuel">
+                    <img src="images/SicSicSic.png" alt="">
+                    <div class="black-overlay">
+                        <h2 class="espace-titre">Sic, sic...sic</h2>
+                        <h3 class="espace-texte">Titre de la composition</h3>
+                        <p class="text-oeuvre">Gingerbread donut ice cream tart chocolate bar. Chocolate chocolate lemon drops apple pie gummies jelly. Bonbon cheesecake bear claw chocolate chocolate apple pie pudding. Halvah wafer candy jelly beans biscuit. Candy canes bonbon caramels gummi bears gummi bears gummi bears jelly beans carrot cake. Lollipop topping tootsie roll.</p>
+                    </div>
+                    <audio controls>
+                        <source src="audio/SicSicSic.mp3" type="audio/mpeg">
+                    </audio>
                 </div>
-                <audio controls>
-                    <source src="audio/SicSicSic.mp3" type="audio/mpeg">
-                </audio>
-            </div>
-            <div class="compo-individuel">
-                <img src="images/AlexJoset.png" alt="">
-                <div class="black-overlay">
-                    <h2 class="espace-titre">titre</h2>
-                    <h3 class="espace-texte">Titre de la composition</h3>
-                    <p class="text-oeuvre">Gingerbread donut ice cream tart chocolate bar. Chocolate chocolate lemon drops apple pie gummies jelly. Bonbon cheesecake bear claw chocolate chocolate apple pie pudding. Halvah wafer candy jelly beans biscuit. Candy canes bonbon caramels gummi bears gummi bears gummi bears jelly beans carrot cake. Lollipop topping tootsie roll.</p>
+                <div class="compo-individuel">
+                    <img src="images/AlexJoset.png" alt="">
+                    <div class="black-overlay">
+                        <h2 class="espace-titre">La vie d'Alex Joset</h2>
+                        <h3 class="espace-texte">Titre de la composition</h3>
+                        <p class="text-oeuvre">Gingerbread donut ice cream tart chocolate bar. Chocolate chocolate lemon drops apple pie gummies jelly. Bonbon cheesecake bear claw chocolate chocolate apple pie pudding. Halvah wafer candy jelly beans biscuit. Candy canes bonbon caramels gummi bears gummi bears gummi bears jelly beans carrot cake. Lollipop topping tootsie roll.</p>
+                    </div>
+                    <audio controls>
+                        <source src="audio/documentaire-AlexJoset.mp3" type="audio/mpeg">
+                    </audio>
                 </div>
-                <audio controls>
-                    <source src="audio/documentaire-AlexJoset.mp3" type="audio/mpeg">
-                </audio>
-            </div>
-            <div class="compo-individuel">
-                <img src="images/MadamRazzal.png" alt="">
-                <div class="black-overlay">
-                    <h2 class="espace-titre">Titre</h2>
-                    <h3 class="espace-texte">Titre de la composition</h3>
-                    <p class="text-oeuvre">Gingerbread donut ice cream tart chocolate bar. Chocolate chocolate lemon drops apple pie gummies jelly. Bonbon cheesecake bear claw chocolate chocolate apple pie pudding. Halvah wafer candy jelly beans biscuit. Candy canes bonbon caramels gummi bears gummi bears gummi bears jelly beans carrot cake. Lollipop topping tootsie roll.</p>
+                <div class="compo-individuel">
+                    <img src="images/MadamRazzal.png" alt="">
+                    <div class="black-overlay">
+                        <h2 class="espace-titre">Madam Razzal</h2>
+                        <h3 class="espace-texte">Titre de la composition</h3>
+                        <p class="text-oeuvre">Gingerbread donut ice cream tart chocolate bar. Chocolate chocolate lemon drops apple pie gummies jelly. Bonbon cheesecake bear claw chocolate chocolate apple pie pudding. Halvah wafer candy jelly beans biscuit. Candy canes bonbon caramels gummi bears gummi bears gummi bears jelly beans carrot cake. Lollipop topping tootsie roll.</p>
+                    </div>
+                    <audio controls>
+                        <source src="audio/MadamRazzal.mp3" type="audio/mpeg">
+                    </audio>
                 </div>
-                <audio controls>
-                    <source src="audio/MadamRazzal.mp3" type="audio/mpeg">
-                </audio>
-            </div>
-            <div class="compo-individuel">
-                <img src="images/aimeFrench.png" alt="">
-                <div class="black-overlay">
-                    <h2 class="espace-titre">titre</h2>
-                    <h3 class="espace-texte">Titre de la composition</h3>
-                    <p class="text-oeuvre">Gingerbread donut ice cream tart chocolate bar. Chocolate chocolate lemon drops apple pie gummies jelly. Bonbon cheesecake bear claw chocolate chocolate apple pie pudding. Halvah wafer candy jelly beans biscuit. Candy canes bonbon caramels gummi bears gummi bears gummi bears jelly beans carrot cake. Lollipop topping tootsie roll.</p>
+                <div class="compo-individuel">
+                    <img src="images/aimeFrench.png" alt="">
+                    <div class="black-overlay">
+                        <h2 class="espace-titre">Aime moi comme tu french</h2>
+                        <h3 class="espace-texte">Titre de la composition</h3>
+                        <p class="text-oeuvre">Gingerbread donut ice cream tart chocolate bar. Chocolate chocolate lemon drops apple pie gummies jelly. Bonbon cheesecake bear claw chocolate chocolate apple pie pudding. Halvah wafer candy jelly beans biscuit. Candy canes bonbon caramels gummi bears gummi bears gummi bears jelly beans carrot cake. Lollipop topping tootsie roll.</p>
+                    </div>
+                    <audio controls>
+                        <source src="audio/AimeMoiFrench.mp3" type="audio/mpeg">
+                    </audio>
                 </div>
-                <audio controls>
-                    <source src="audio/AimeMoiFrench.mp3" type="audio/mpeg">
-                </audio>
             </div>
-            <img class="fleche" src="images/next.svg" alt="">
         </div>
 
 
