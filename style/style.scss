@@ -180,6 +180,8 @@ body{
             opacity: 0;
             color: $lightText;
             transition: opacity 200ms ease-out;
+            padding-left: 15px;
+            padding-top: 15px;
         }
         &:hover {
             .black-overlay {

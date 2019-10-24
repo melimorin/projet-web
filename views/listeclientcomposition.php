@@ -31,6 +31,8 @@
             <div class="compo-individuel">
                 <img src="images/SicSicSic.png" alt="">
                 <div class="black-overlay">
+                    <h2>titre</h2>
+                    <h3>Titre de la composition</h3>
                     <p>texte</p>
                 </div>
                 <audio controls>
@@ -40,7 +42,9 @@
             <div class="compo-individuel">
                 <img src="images/AlexJoset.png" alt="">
                 <div class="black-overlay">
-                    <p>texte</p>
+                    <h2>titre</h2>
+                    <h3>Titre de la composition</h3>
+                    <p>description</p>
                 </div>
                 <audio controls>
                     <source src="audio/documentaire-AlexJoset.mp3" type="audio/mpeg">
@@ -49,6 +53,8 @@
             <div class="compo-individuel">
                 <img src="images/MadamRazzal.png" alt="">
                 <div class="black-overlay">
+                    <h2>titre</h2>
+                    <h3>Titre de la composition</h3>
                     <p>texte</p>
                 </div>
                 <audio controls>
@@ -58,6 +64,8 @@
             <div class="compo-individuel">
                 <img src="images/aimeFrench.png" alt="">
                 <div class="black-overlay">
+                    <h2>titre</h2>
+                    <h3>Titre de la composition</h3>
                     <p>texte</p>
                 </div>
                 <audio controls>

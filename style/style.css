@@ -226,6 +226,8 @@ body {
   color: #f3f5f5;
   -webkit-transition: opacity 200ms ease-out;
   transition: opacity 200ms ease-out;
+  padding-left: 15px;
+  padding-top: 15px;
 }
 
 .img-compo .compo-individuel:hover .black-overlay {
