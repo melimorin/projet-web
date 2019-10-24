@@ -37,6 +37,15 @@ body {
   font-size: 20px;
   font-weight: 400;
   color: #f3f5f5;
+  line-height: 20px;
+}
+
+.text-oeuvre {
+  font-family: "Lora", serif;
+  font-size: 14px;
+  font-weight: normal;
+  color: #f3f5f5;
+  line-height: 22px;
 }
 
 .espace-titre {
@@ -59,6 +68,7 @@ body {
   border: 2px solid #967b42;
   background-color: #967b42;
   margin-top: 15px;
+  display: inline-block;
 }
 
 .container-button a {
@@ -215,6 +225,10 @@ body {
   position: relative;
   width: 20%;
   margin: 0px 2.5%;
+}
+
+.img-compo .compo-individuel h2 {
+  font-size: 28px;
 }
 
 .img-compo .compo-individuel img, .img-compo .compo-individuel audio {

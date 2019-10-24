@@ -25,14 +25,31 @@
       <form class="padding-boite-admin">
         <h2 class="titre espace-titre ">Creer une nouvelle composition</h2>
         <div class="form-group onglet">
-            <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Titre du projet">
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Titre du projet">
         </div>
         <div class="form-group onglet">
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Titre de la composition">
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Titre de la composition">
         </div>
-        <button type="submit" class="container-button text-gras text-light padding-bouton">Telecharger l'audio</button>
-        <button type="submit" class="container-button text-gras text-light padding-bouton">Telecharger l'image</button>
-        </form>
+        <div class="input-group mb-3">
+        <div class="custom-file ">
+            <input type="file" class="custom-file-input" id="inputGroupFile02">
+            <label class="custom-file-label" for="inputGroupFile02">Telecharger l'image</label>
+        </div>
+        <div class="input-group-append">
+            <span class="input-group-text" id="">Upload</span>
+        </div>
+        </div>
+
+        <div class="input-group mb-3">
+        <div class="custom-file ">
+            <input type="file" class="custom-file-input" id="inputGroupFile02">
+            <label class="custom-file-label" for="inputGroupFile02">Telecharger l'audio</label>
+        </div>
+        <div class="input-group-append">
+            <span class="input-group-text" id="">Upload</span>
+        </div>
+        </div>
+    </form>
     </div>
     <!-- Footer -->
     <?php 

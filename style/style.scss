@@ -37,6 +37,7 @@ body{
     font-weight: 800;
     margin-bottom: 20px;
     color: $lightText;
+    
 }
 
 .text-light {
@@ -44,6 +45,14 @@ body{
     font-size: 20px;
     font-weight: 400;
     color: $lightText;
+    line-height: 20px;
+}
+.text-oeuvre {
+    font-family: $textFont;
+    font-size: 14px;
+    font-weight: normal;
+    color: $lightText;
+    line-height: 22px;
 }
 .espace-titre {
     margin-bottom: 30px;
@@ -62,6 +71,7 @@ body{
     border: 2px solid #967b42;
     background-color: $gold;
     margin-top: 15px;
+    display: inline-block;
     a {
         color: $lightText;
         font-size: 14px;;
@@ -172,6 +182,9 @@ body{
         position: relative;
         width: 20%;
         margin: 0px 2.5%;
+        h2 {
+            font-size: 28px;
+        }
         img, audio {
             width: 100%;
         }

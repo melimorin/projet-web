@@ -36,8 +36,8 @@
     <div class="container derniere-compo">
         <div class="container container-compo">
             <div class="text-derniere-compo">
-                <h2 class="titre espace-titre ">Derniere composition</h2>
-                <p class="text espace-titre">Nous vous proposons de decouvrir les nouvelles trames sonores.</p>
+                <h2 class="titre espace-titre ">Dernières compositions</h2>
+                <p class="text espace-titre">Nous vous proposons de découvrir les nouvelles trames sonores.</p>
             </div>
             <div class="img-derniere-compo espace-titre">
                 <img class="image overlay" src="images/SicSicSic.png" alt="">
