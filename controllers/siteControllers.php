@@ -7,3 +7,11 @@ function ajoutAccueil() {
 function ajoutListeClientCompo() {
     include("views/listeclientcomposition.php");
 }
+
+function ajoutSeConnecter() {
+    include("views/seConnecter.php");
+}
+
+function ajoutAccueilAdmin() {
+    include("views/accueiladmin.php");
+}

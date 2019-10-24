@@ -52,6 +52,7 @@
             
             <div class="container texte-propos">
                 <h2 class="titre-light espace-titre">A propos</h2>
+                <div id="apropos"></div>
                 <div class="propos-texte text-light">
                     <p class="espace-texte">Stagiaire à Sienne (Italie) auprès du grand ENNIO MORRICONE, il a remporté 6 Félix et Jutra et a été nominé plus de 21 fois aux galas Adisq, Jutra et Genie Awards depuis l'année 2000. ARRANGEUR DE L'ANNÉE en 2010 dve même qu'en 2011 pour ses albums « Sun Heat » et « Les Quarks ».</p>
                     <p class="espace-texte">Gabriel Forion signe notamment la musique de « Madam Razzal » (mettant en vedette ABDUL GALEF), film de RÉJEAN GRANEAU nominé pour un Oscar dans la catégorie Best Foreign Language Film, pour lequel il remporte au Québec le Jutra Meilleure musique originale en 2012.</p>
