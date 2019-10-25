@@ -38,8 +38,8 @@
                     <img src="images/SicSicSic.png" alt="">
                     <div class="black-overlay">
                         <h2 class="espace-titre">Sic, sic...sic</h2>
-                        <h3 class="espace-texte">Titre de la composition</h3>
-                        <p class="text-oeuvre">Gingerbread donut ice cream tart chocolate bar. Chocolate chocolate lemon drops apple pie gummies jelly. Bonbon cheesecake bear claw chocolate chocolate apple pie pudding. Halvah wafer candy jelly beans biscuit. Candy canes bonbon caramels gummi bears gummi bears gummi bears jelly beans carrot cake. Lollipop topping tootsie roll.</p>
+                        <h3 class="espace-texte">Bande sonore</h3>
+                        <p class="text-oeuvre"> Gabriel Forion fait équipe avec son vieux partenaire Daniel Laitue pour réaliser la musique du court métrage « Sic Sic Sic ». Une comédie sur l’attachement parental face au bagage génétique et autres projection personnelles de ceux-ci. Le court métrage a remporté le premier prix au festival du court métrage de Toronto.</p>
                     </div>
                     <audio controls>
                         <source src="audio/SicSicSic.mp3" type="audio/mpeg">
@@ -49,8 +49,8 @@
                     <img src="images/AlexJoset.png" alt="">
                     <div class="black-overlay">
                         <h2 class="espace-titre">La vie d'Alex Joset</h2>
-                        <h3 class="espace-texte">Titre de la composition</h3>
-                        <p class="text-oeuvre">Gingerbread donut ice cream tart chocolate bar. Chocolate chocolate lemon drops apple pie gummies jelly. Bonbon cheesecake bear claw chocolate chocolate apple pie pudding. Halvah wafer candy jelly beans biscuit. Candy canes bonbon caramels gummi bears gummi bears gummi bears jelly beans carrot cake. Lollipop topping tootsie roll.</p>
+                        <h3 class="espace-texte">Bande sonore</h3>
+                        <p class="text-oeuvre"> Gabriel Forion réalise une bande originale de film ici pour un documentaire. On y retrouve plusieurs compositions épiques qui mettent de l’avant le côté extraordinaire du documentaire. Bien sûr, on notera les ambiances aussi planantes et quelques peu dépressive lors des scènes catastrophes.</p>
                     </div>
                     <audio controls>
                         <source src="audio/documentaire-AlexJoset.mp3" type="audio/mpeg">
@@ -60,8 +60,8 @@
                     <img src="images/MadamRazzal.png" alt="">
                     <div class="black-overlay">
                         <h2 class="espace-titre">Madam Razzal</h2>
-                        <h3 class="espace-texte">Titre de la composition</h3>
-                        <p class="text-oeuvre">Gingerbread donut ice cream tart chocolate bar. Chocolate chocolate lemon drops apple pie gummies jelly. Bonbon cheesecake bear claw chocolate chocolate apple pie pudding. Halvah wafer candy jelly beans biscuit. Candy canes bonbon caramels gummi bears gummi bears gummi bears jelly beans carrot cake. Lollipop topping tootsie roll.</p>
+                        <h3 class="espace-texte">Bande sonore</h3>
+                        <p class="text-oeuvre">Gabriel Forion signe notamment la musique de « Madam Razzal » (mettant en vedette ABDUL GALEF), film de RÉJEAN GRANEAU nominé pour un Oscar dans la catégorie Best Foreign Language Film, pour lequel il remporte au Québec le Jutra Meilleure musique originale en 2012. On qualifie l’œuvre d’essentielle et capitale au succès du film.</p>
                     </div>
                     <audio controls>
                         <source src="audio/MadamRazzal.mp3" type="audio/mpeg">
@@ -71,8 +71,8 @@
                     <img src="images/aimeFrench.png" alt="">
                     <div class="black-overlay">
                         <h2 class="espace-titre">Aime moi comme tu french</h2>
-                        <h3 class="espace-texte">Titre de la composition</h3>
-                        <p class="text-oeuvre">Gingerbread donut ice cream tart chocolate bar. Chocolate chocolate lemon drops apple pie gummies jelly. Bonbon cheesecake bear claw chocolate chocolate apple pie pudding. Halvah wafer candy jelly beans biscuit. Candy canes bonbon caramels gummi bears gummi bears gummi bears jelly beans carrot cake. Lollipop topping tootsie roll.</p>
+                        <h3 class="espace-texte">Bande sonore</h3>
+                        <p class="text-oeuvre">Gabriel Forion compose la musique du film « Aime-moi comme tu french » d’Andrée Forcée. Il puise ses inspirations dans les courants musicaux des années 1980 tout en y ajoutant une touche plus moderne. Cette exquise combinaison bien dosée, ajoute au coté tant humoristique que dramatique du film, tout en y ajoutant nostalgie.</p>
                     </div>
                     <audio controls>
                         <source src="audio/AimeMoiFrench.mp3" type="audio/mpeg">

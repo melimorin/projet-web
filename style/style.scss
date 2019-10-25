@@ -24,12 +24,23 @@ body{
     margin-bottom: 20px;
     color: $darkText;
 }
+.sous-titre {
+    font-family: $textFont;
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    color: $darkText;
+}
 
 .text {
     font-family: $textFont;
     font-size: 20px;
     font-weight: 400;
     color: $darkText;
+}
+
+.text-list {
+    text-align: left;
 }
 .titre-light {
     font-family: $textFont;
@@ -95,7 +106,7 @@ body{
     padding: 5px;
 }
 .padding-boite-admin {
-    padding: 70px;
+    padding: 25px;
 }
 
 .container {
@@ -168,8 +179,8 @@ body{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    img {
-        max-width: 25%;
+    a img {
+        max-width: 90%;
     }
     
 }
@@ -224,6 +235,12 @@ body{
     width: 50px;
     margin-top: -65px;
     z-index: 10;
+    
+}
+
+.fleche:hover {
+    width: 55px;
+    transition: width 0.25s ease-out ;
 }
 
 .fleche-gauche {
@@ -264,7 +281,6 @@ body{
         border: 1px solid #fff;
         background-color: #fff;
         width: 100%;
-        height: 500px;
         min-height: 100%;
         text-align: center;
         input {
@@ -304,4 +320,9 @@ body{
 
 .contenant-carroussel {
     position: relative;
+    overflow: hidden;
+}
+
+.box-admin {
+    height: 250px;
 }

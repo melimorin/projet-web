@@ -23,3 +23,6 @@ function ajoutNouvelUtilisateur() {
 function ajoutNouvelleCompo() {
     include("views/nouvelleCompo.php");
 }
+function ajoutListeCompoModif() {
+    include("views/listeCompoModif.php");
+}

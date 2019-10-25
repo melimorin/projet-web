@@ -32,6 +32,7 @@
         </div>
         <button type="submit" class="container-button text-gras text-light padding-bouton">Connexion</button>
         </form>
+        <div class="box-admin"></div>
     </div>
     <!-- Footer -->
     <?php 

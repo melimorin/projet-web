@@ -40,9 +40,9 @@
                 <p class="text espace-titre">Nous vous proposons de découvrir les nouvelles trames sonores.</p>
             </div>
             <div class="img-derniere-compo espace-titre">
-                <img class="image overlay" src="images/SicSicSic.png" alt="">
-                <img class="image overlay" src="images/AlexJoset.png" alt="">
-                <img class="image overlay" src="images/MadamRazzal.png" alt="">
+                <a href="listeclientcomposition.php"><img class="image overlay" src="images/SicSicSic.png" alt=""></a>
+                <a href="listeclientcomposition.php"><img class="image overlay" src="images/AlexJoset.png" alt=""></a>
+                <a href="listeclientcomposition.php"><img class="image overlay" src="images/MadamRazzal.png" alt=""></a>
             </div>
         </div>
 

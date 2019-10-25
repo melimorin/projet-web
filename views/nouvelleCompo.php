@@ -23,7 +23,10 @@
     </div>
     <div class="container container-admin-color espace-titre">
       <form class="padding-boite-admin">
-        <h2 class="titre espace-titre ">Creer une nouvelle composition</h2>
+      <?php 
+          include("views/include/navbarAdmin.php");
+      ?>
+        <h2 class="sous-titre espace-titre ">Creer une nouvelle composition</h2>
         <div class="form-group onglet">
             <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Titre du projet">
         </div>

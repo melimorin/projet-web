@@ -19,11 +19,15 @@
         <?php 
             include("views/include/navbar.php");
         ?>
+
         
     </div>
     <div class="container container-admin-color espace-titre">
       <form class="padding-boite-admin">
-        <h2 class="titre espace-titre ">Créer un nouvel utilisateur</h2>
+      <?php 
+          include("views/include/navbarAdmin.php");
+      ?>
+        <h2 class="sous-titre espace-titre ">Créer un nouvel utilisateur</h2>
         <div class="form-group onglet">
             <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nom">
         </div>
