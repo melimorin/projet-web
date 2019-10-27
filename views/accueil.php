@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="style/style.css">
     <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <script type="module">
+		import App from "./src/App.js";
+		App.load().then(() => App.main());
+	</script>
     <title>Document</title>
 </head>
 <body>
