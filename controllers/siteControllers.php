@@ -1,5 +1,7 @@
 <?php
 
+include("models/bdPortfolio.php");
+
 function ajoutAccueil() {
     include("views/accueil.php");
 }
@@ -27,5 +29,7 @@ function ajoutListeCompoModif() {
     include("views/listeCompoModif.php");
 }
 function ajoutListeUtilisateursModifs() {
+    $utilisateurNom = listeUtilisateurs();
     include("views/listeUtilisateursModifs.php");
 }
+

@@ -22,6 +22,7 @@
 
     <!-- Barre de naviguation -->
         <?php 
+            $page = "connexion";
             include("views/include/navbar.php");
         ?>
         

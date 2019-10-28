@@ -17,6 +17,7 @@
 
     <!-- Barre de naviguation -->
         <?php 
+            $page = "listeUtilisateurs";
             include("views/include/navbar.php");
         ?>
         
@@ -27,30 +28,19 @@
           include("views/include/navbarAdmin.php");
       ?>
         <h2 class="sous-titre espace-titre ">Liste utilisateurs</h2>
+        <?php foreach ($utilisateurNom as $utilisateursNoms){ ?>
         <div class="btn-compo-modif">
-            <div class="left-bar"><p>Melissa Morin</p></div>
+            <div class="left-bar"><p><?php echo $utilisateursNoms["nom"];?></p></div>
             <div class="right-bar">
-                <a class="text-gras sous-ligne onbold" href="#apropos">Modifier</a>
+                <a class="text-gras sous-ligne" href="#apropos">Modifier</a>
                 <a href="#">Delete</a>
             </div>
         </div>
-        <div class="btn-compo-modif">
-            <div class="left-bar"><p>Julien Duranleau</p></div>
-            <div class="right-bar">
-                <a class="text-gras sous-ligne onbold" href="#apropos">Modifier</a>
-                <a href="#">Delete</a>
-            </div>
-        </div>
-        <div class="btn-compo-modif">
-            <div class="left-bar"><p>Alex Joset</p></div>
-            <div class="right-bar">
-                <a class="text-gras sous-ligne onbold" href="#apropos">Modifier</a>
-                <a href="#">Delete</a>
-            </div>
-        </div>
+        <?php } ?>
 </div>
     <!-- Footer -->
     <?php 
+        
         include("views/include/footer.php");
     ?>
 

@@ -17,6 +17,7 @@
 
     <!-- Barre de naviguation -->
         <?php 
+            $page = "nouvellecomposition";
             include("views/include/navbar.php");
         ?>
         

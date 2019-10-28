@@ -8,9 +8,9 @@
         </div>
         <div class="center-side">
             <h3 class="espace-texte">Suivez-moi</h3>
-            <a href="#"><img src="images/linkedin.png" alt=""></a>
-            <a href="#"><img src="images/facebook.png" alt=""></a>
-            <a href="#"><img src="images/bandcamp.png" alt=""></a>
+            <a href="#"><img class="margin-icon" src="images/linkedin.png" alt=""></a>
+            <a href="#"><img class="margin-icon" src="images/facebook.png" alt=""></a>
+            <a href="#"><img class="margin-icon" src="images/bandcamp.png" alt=""></a>
         </div>
         <div class="right-side">
             <h3 class="espace-texte">Infolettres</h3>

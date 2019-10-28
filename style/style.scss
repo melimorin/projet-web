@@ -78,6 +78,11 @@ body{
     font-size: 16px;
     font-weight: normal;
 }
+.text-nav-admin {
+    font-family: $textFont;
+    font-size: 16px;
+    font-weight: normal;
+}
 .boite-texte {
     border: 1px solid #ced4da;
     border-radius: .25rem;
@@ -86,6 +91,10 @@ body{
     margin-right: auto;
     text-align: left;
     padding: 10px;
+}
+
+.margin-icon {
+    margin-right: 12px;
 }
 .container-button {
     border: 2px solid #967b42;
@@ -274,6 +283,10 @@ body{
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
+        p {
+            font-size: 18px;
+            line-height: 26px;
+        }
     }
 
     .container-admin-color {
@@ -342,6 +355,11 @@ body{
         color: $darkText;
         font-family: $textFont;
         font-weight: 800;
+        text-align: right;
     }  
     
+}
+
+.onbold {
+    color: #88c1cd !important;
 }

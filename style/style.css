@@ -76,6 +76,12 @@ body {
   font-weight: normal;
 }
 
+.text-nav-admin {
+  font-family: "Lora", serif;
+  font-size: 16px;
+  font-weight: normal;
+}
+
 .boite-texte {
   border: 1px solid #ced4da;
   border-radius: .25rem;
@@ -84,6 +90,10 @@ body {
   margin-right: auto;
   text-align: left;
   padding: 10px;
+}
+
+.margin-icon {
+  margin-right: 12px;
 }
 
 .container-button {
@@ -340,6 +350,11 @@ body {
           justify-content: flex-start;
 }
 
+.propos-texte p {
+  font-size: 18px;
+  line-height: 26px;
+}
+
 .container-admin-color {
   border: 1px solid #fff;
   background-color: #fff;
@@ -419,5 +434,10 @@ body {
   color: #292826;
   font-family: "Lora", serif;
   font-weight: 800;
+  text-align: right;
+}
+
+.onbold {
+  color: #88c1cd !important;
 }
 /*# sourceMappingURL=style.css.map */

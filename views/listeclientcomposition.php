@@ -18,6 +18,7 @@
 
 <!-- Barre de naviguation -->
         <?php 
+            $page = "composition";
             include("views/include/navbar.php");
         ?>
     

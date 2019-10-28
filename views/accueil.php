@@ -18,6 +18,7 @@
 
 <!-- Barre de naviguation -->
         <?php 
+            $page = "accueil";
             include("views/include/navbar.php");
         ?>
     

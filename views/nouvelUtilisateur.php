@@ -17,6 +17,7 @@
 
     <!-- Barre de naviguation -->
         <?php 
+            $page = "nouvelutilisateur";
             include("views/include/navbar.php");
         ?>
 
