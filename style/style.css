@@ -415,14 +415,14 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 20px 361px;
 }
 
 .btn-compo-modif .left-bar p {
@@ -439,5 +439,9 @@ body {
 
 .onbold {
   color: #88c1cd !important;
+}
+
+.onbold:hover {
+  border-bottom: none;
 }
 /*# sourceMappingURL=style.css.map */

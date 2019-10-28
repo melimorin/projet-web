@@ -341,10 +341,9 @@ body{
 
 .btn-compo-modif {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: row;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 20px 361px;
 
     .left-bar p {
         text-align: left;
@@ -362,4 +361,8 @@ body{
 
 .onbold {
     color: #88c1cd !important;
+    &:hover {
+        border-bottom: none;
+    }
 }
+

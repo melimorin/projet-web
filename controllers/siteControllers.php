@@ -25,11 +25,26 @@ function ajoutNouvelUtilisateur() {
 function ajoutNouvelleCompo() {
     include("views/nouvelleCompo.php");
 }
+
 function ajoutListeCompoModif() {
     include("views/listeCompoModif.php");
 }
+
 function ajoutListeUtilisateursModifs() {
     $utilisateurNom = listeUtilisateurs();
     include("views/listeUtilisateursModifs.php");
+}
+function ajoutModifierUtilisateur() {
+    // modifierUtilisateur($_GET["id"]);
+    // header("location:listeUtilisateursModifs.php");
+    $nom = getUtilisateur($_GET["id"]);
+    include("views/modifierUtilisateur.php");
+}
+
+
+function ajoutSupprimerUtilisateur() {
+    supprimerUtilisateur($_GET["id"]);
+    header("location:listeUtilisateursModifs.php");
+    exit();
 }
 

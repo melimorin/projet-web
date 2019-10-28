@@ -15,7 +15,7 @@ function listeUtilisateurs() {
 function modifierUtilisateur($id, $utilisateurNom) {
     global$bdd;
     $sql = "
-        UPDATE nom
+        UPDATE nom, courriel, motdepasse
         SET titre = '$nom'
         WHERE id = $id 
     ";
@@ -30,4 +30,15 @@ function supprimerUtilisateur($id) {
     ";
     $resultats = mysqli_query($bdd, $sql);
     return $resultats;
+}
+
+function getUtilisateur($id) {
+    global$bdd;
+    $sql = "
+        SELECT id, nom, courriel, motdepasse
+        FROM listeutilisateurs
+        WHERE id = $id 
+    ";
+    $resultats = mysqli_query($bdd, $sql);
+    return mysqli_fetch_assoc($resultats);
 }

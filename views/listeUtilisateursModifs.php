@@ -32,8 +32,8 @@
         <div class="btn-compo-modif">
             <div class="left-bar"><p><?php echo $utilisateursNoms["nom"];?></p></div>
             <div class="right-bar">
-                <a class="text-gras sous-ligne" href="#apropos">Modifier</a>
-                <a href="#">Delete</a>
+                <a href="modifierUtilisateur.php?id=<?php echo $utilisateursNoms["id"];?>" class="text-gras sous-ligne">Modifier</a>
+                <a href="supprimerUtilisateur.php?id=<?php echo $utilisateursNoms["id"];?>" class="text-gras sous-ligne">Supprimer</a>
             </div>
         </div>
         <?php } ?>
