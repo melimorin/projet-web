@@ -325,3 +325,23 @@ body{
 .box-admin {
     height: 250px;
 }
+
+.btn-compo-modif {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    .left-bar p {
+        text-align: left;
+    }
+    
+    a {
+        text-decoration: none;
+        color: $darkText;
+        font-family: $textFont;
+        font-weight: 800;
+    }  
+    
+}

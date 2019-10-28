@@ -395,4 +395,29 @@ body {
 .box-admin {
   height: 250px;
 }
+
+.btn-compo-modif {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.btn-compo-modif .left-bar p {
+  text-align: left;
+}
+
+.btn-compo-modif a {
+  text-decoration: none;
+  color: #292826;
+  font-family: "Lora", serif;
+  font-weight: 800;
+}
 /*# sourceMappingURL=style.css.map */

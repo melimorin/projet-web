@@ -26,3 +26,6 @@ function ajoutNouvelleCompo() {
 function ajoutListeCompoModif() {
     include("views/listeCompoModif.php");
 }
+function ajoutListeUtilisateursModifs() {
+    include("views/listeUtilisateursModifs.php");
+}

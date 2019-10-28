@@ -26,36 +26,29 @@
       <?php 
           include("views/include/navbarAdmin.php");
       ?>
-        <h2 class="sous-titre espace-titre ">Liste des compositions</h2>
+        <h2 class="sous-titre espace-titre ">Liste utilisateurs</h2>
         <div class="btn-compo-modif">
-            <div class="left-bar"><p>Madam Razalt</p></div>
+            <div class="left-bar"><p>Melissa Morin</p></div>
             <div class="right-bar">
                 <a class="text-gras sous-ligne onbold" href="#apropos">Modifier</a>
                 <a href="#">Delete</a>
             </div>
         </div>
         <div class="btn-compo-modif">
-            <div class="left-bar"><p>Aime moi comme tu french</p></div>
+            <div class="left-bar"><p>Julien Duranleau</p></div>
             <div class="right-bar">
                 <a class="text-gras sous-ligne onbold" href="#apropos">Modifier</a>
                 <a href="#">Delete</a>
             </div>
         </div>
         <div class="btn-compo-modif">
-            <div class="left-bar"><p>La vie d’Alex Joset</p></div>
+            <div class="left-bar"><p>Alex Joset</p></div>
             <div class="right-bar">
                 <a class="text-gras sous-ligne onbold" href="#apropos">Modifier</a>
                 <a href="#">Delete</a>
             </div>
         </div>
-        <div class="btn-compo-modif">
-            <div class="left-bar"><p>Sic Sic Sic</p></div>
-            <div class="right-bar">
-                <a class="text-gras sous-ligne onbold" href="#apropos">Modifier</a>
-                <a href="#">Delete</a>
-            </div>
-        </div>
-    </div>
+</div>
     <!-- Footer -->
     <?php 
         include("views/include/footer.php");
