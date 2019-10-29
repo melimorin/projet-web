@@ -444,4 +444,8 @@ body {
 .onbold:hover {
   border-bottom: none;
 }
+
+.padding-admin {
+  padding: 100px;
+}
 /*# sourceMappingURL=style.css.map */

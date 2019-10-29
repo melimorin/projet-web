@@ -36,7 +36,8 @@
         <div class="form-group onglet">
             <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Mot de passe">
         </div>
-        <button type="submit" class="container-button text-gras text-light padding-bouton">Connexion</button>
+        <!-- <button type="submit" class="container-button text-gras text-light padding-bouton">Connexion</button> -->
+        <a href="accueiladmin.php">Administration ici</a>
         </form>
         <div class="box-admin"></div>
     </div>

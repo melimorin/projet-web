@@ -40,14 +40,15 @@
     <?php 
         include("views/include/navbarAdmin.php");
     ?>
-
-    <form action="modifierSubmit.php" method="post">
-        <input type="hidden" name="id" value="<?php echo $nom["id"]; ?>">
-        <input type="text" name="nom" placeholder="" value="<?php echo $nom["nom"]; ?>">
-        <input type="text" name="courriel" placeholder="" value="<?php echo $nom["courriel"]; ?>">
-        <input type="password" name="motdepasse" placeholder="" value="<?php echo $nom["motdepasse"]; ?>">
-        <input type="submit" value="Modifier">
-    </form>
+      <div class="container container-admin-color espace-titre padding-admin">
+        <form action="modifierSubmit.php" method="post">
+            <input type="hidden" name="id" value="<?php echo $nom["id"]; ?>">
+            <input type="text" name="nom" placeholder="" value="<?php echo $nom["nom"]; ?>">
+            <input type="text" name="courriel" placeholder="" value="<?php echo $nom["courriel"]; ?>">
+            <input type="password" name="motdepasse" placeholder="" value="<?php echo $nom["motdepasse"]; ?>">
+            <input type="submit" value="Modifier">
+        </form>
+      </div>
     <div class="box-admin"></div>
     <!-- Footer -->
     <?php 
