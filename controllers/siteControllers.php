@@ -92,3 +92,18 @@ function ajoutSupprimerComposition() {
     header("location:listeCompoModif.php");
     exit();
 }
+
+function ajoutModifierComposition() {
+    // modifierUtilisateur($_GET["id"]);
+    // header("location:listeUtilisateursModifs.php");
+    $composition = getCompositions($_GET["id"]);
+    include("views/modifierComposition.php");
+}
+
+function modifierCompoSubmitController() {
+    // mettre a jour 
+    modifierComposition($_POST["id"], $_POST["titrecomposition"], $_POST["titreprojet"], $_POST["description"], $_POST["urlaudio"], $_POST["urlimage"]);
+    // redirection vers liste 
+    header("location:listeCompoModif.php");
+    exit();
+}

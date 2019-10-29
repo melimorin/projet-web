@@ -32,7 +32,7 @@
         <div class="btn-compo-modif">
             <div class="left-bar"><p><?php echo $compositionNom["titrecomposition"];?></p></div>
             <div class="right-bar">
-                <a href="modifierUtilisateur.php?id=<?php echo $compositionNom["id"];?>" class="text-gras sous-ligne">Modifier</a>
+                <a href="modifierComposition.php?id=<?php echo $compositionNom["id"];?>" class="text-gras sous-ligne">Modifier</a>
                 <a href="supprimerComposition.php?id=<?php echo $compositionNom["id"];?>" class="text-gras sous-ligne">Supprimer</a>
             </div>
         </div>

@@ -98,3 +98,14 @@ function supprimerComposition($id) {
     $resultats = mysqli_query($bdd, $sql);
     return $resultats;
 }
+
+function modifierComposition($id, $titreCompo, $titreProjet, $compoDescription, $urlimage, $urlaudio) {
+    global$bdd;
+    $sql = "
+        UPDATE listeoeuvres
+        SET titrecomposition = '$titreCompo', titreprojet = '$titreProjet', description = '$compoDescription', urlimage = '$urlimage', urlaudio = '$urlaudio'
+        WHERE id = $id 
+    ";
+    $resultats = mysqli_query($bdd, $sql);
+    return $resultats;
+}
