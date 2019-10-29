@@ -11,7 +11,7 @@
 		import App from "./src/App.js";
 		App.load().then(() => App.main());
 	</script>
-    <title>Document</title>
+    <title>Gabriel Forion</title>
 </head>
 <body>
     <div class="container">

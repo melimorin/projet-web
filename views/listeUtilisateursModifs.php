@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style/style.css">
     <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-    <title>Hello, world!</title>
+    <title>Liste utilisateurs</title>
   </head>
   <body>
     <div class="container">
