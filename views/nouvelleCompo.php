@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style/style.css">
     <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-    <title>Hello, world!</title>
+    <title>Nouvelle composition</title>
   </head>
   <body>
     <div class="container">
@@ -22,26 +22,32 @@
         ?>
         
     </div>
+
+
     <div class="container container-admin-color espace-titre">
-      <form class="padding-boite-admin">
+      <form action="ajoutsuccescompos.php" method="post" class="padding-boite-admin">
       <?php 
           include("views/include/navbarAdmin.php");
       ?>
         <h2 class="sous-titre espace-titre ">Creer une nouvelle composition</h2>
         <div class="form-group onglet">
-            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Titre du projet">
+            <input name="titrecomposition" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Titre du projet">
         </div>
         <div class="form-group onglet">
-            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Titre de la composition">
+            <input name="titreprojet" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Titre de la composition">
+        </div>
+        <div class="form-group onglet">
+            <input name="description" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Description">
         </div>
         <div class="boite-texte">
             <p class="text-gras">Télécharger l'image</p>
-            <input type="file" name="fileImage">
+            <input type="file" name="urlimage">
         </div>
         <div class="boite-texte espace-texte">
             <p class="text-gras">Télécharger l'audio</p>
-            <input type="file" name="fileAudio">
+            <input type="file" name="urlaudio">
         </div>
+        <button type="submit" class="container-button text-gras text-light padding-bouton">Envoyer</button>
     </form>
     </div>
     <!-- Footer -->

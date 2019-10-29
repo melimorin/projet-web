@@ -28,7 +28,17 @@
           include("views/include/navbarAdmin.php");
       ?>
         <h2 class="sous-titre espace-titre ">Liste des compositions</h2>
+        <?php foreach ($compositionNoms as $compositionNom){ ?>
         <div class="btn-compo-modif">
+            <div class="left-bar"><p><?php echo $compositionNom["titrecomposition"];?></p></div>
+            <div class="right-bar">
+                <a href="modifierUtilisateur.php?id=<?php echo $compositionNom["id"];?>" class="text-gras sous-ligne">Modifier</a>
+                <a href="supprimerComposition.php?id=<?php echo $compositionNom["id"];?>" class="text-gras sous-ligne">Supprimer</a>
+            </div>
+        </div>
+        <?php } ?>
+
+        <!-- <div class="btn-compo-modif">
             <div class="left-bar"><p>Madam Razalt</p></div>
             <div class="right-bar">
                 <a class="text-nav-admin sous-ligne" href="#apropos">Modifier</a>
@@ -55,7 +65,7 @@
                 <a class="text-nav-admin sous-ligne" href="#apropos">Modifier</a>
                 <a href="#">Delete</a>
             </div>
-        </div>
+        </div> -->
     </div>
     <!-- Footer -->
     <?php 

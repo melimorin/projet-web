@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="style/style.css">
     <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-    <title>Hello, world!</title>
+    <title>Succes</title>
   </head>
   <body>
     <div class="container">
@@ -24,22 +24,12 @@
         
     </div>
     <div class="container container-admin-color espace-titre">
-      <form action="ajoutSucces.php" method="post" class="padding-boite-admin">
+      <form class="padding-boite-admin">
       <?php 
           include("views/include/navbarAdmin.php");
       ?>
-        <h2 class="sous-titre espace-titre ">Créer un nouvel utilisateur</h2>
-        <div class="form-group onglet">
-            <input name="nom" type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Nom">
-        </div>
-        <div class="form-group onglet">
-            <input name="courriel" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Adresse courriel">
-        </div>
-        <div class="form-group onglet">
-            <input name="motdepasse" type="password" class="form-control" id="exampleInputPassword1" placeholder="Mot de passe">
-        </div>
-        <button type="submit" class="container-button text-gras text-light padding-bouton">Créer</button>
-        </form>
+        <h2 class="sous-titre espace-titre ">La composition a été ajouté</h2>
+        <p><a href="listeCompoModif.php">Retour à la liste des compositions</a></p>
     </div>
     <!-- Footer -->
     <?php 

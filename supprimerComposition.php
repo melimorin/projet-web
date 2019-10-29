@@ -2,4 +2,4 @@
 
 include("controllers/siteControllers.php");
 
-ajoutListeCompositionsModifs();
+ajoutSupprimerComposition();
