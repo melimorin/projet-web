@@ -14,14 +14,13 @@
   </head>
   <body>
     <div class="container">
-
     <!-- Barre de naviguation -->
         <?php 
             $page = "listeUtilisateurs";
             include("views/include/navbar.php");
-        ?>
-        
+        ?>   
     </div>
+    
     <div class="container container-admin-color espace-titre">
       <form class="padding-boite-admin">
       <?php 

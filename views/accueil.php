@@ -48,15 +48,12 @@
                 <?php foreach ($compositionNoms as $compositionNom){ ?>
                 <a href="listeclientcomposition.php"><img class="image overlay" src="images/<?php echo $compositionNom["urlimage"]; ?>" alt=""></a>
                 <?php } ?>
-                <!-- <a href="listeclientcomposition.php"><img class="image overlay" src="images/AlexJoset.png" alt=""></a>
-                <a href="listeclientcomposition.php"><img class="image overlay" src="images/MadamRazzal.png" alt=""></a> -->
             </div>
         </div>
 
     </div>
 <!-- a propos - section -->
-        <div class="container-propos">
-            
+        <div class="container-propos">        
             <div class="container texte-propos">
                 <h2 class="titre-light espace-titre">A propos</h2>
                 <div id="apropos"></div>

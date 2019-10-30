@@ -14,14 +14,13 @@
   </head>
   <body>
     <div class="container">
-
     <!-- Barre de naviguation -->
         <?php 
             $page = "listeCompoModif";
             include("views/include/navbar.php");
         ?>
-        
     </div>
+    
     <div class="container container-admin-color espace-titre">
       <form class="padding-boite-admin">
       <?php 
@@ -37,35 +36,6 @@
             </div>
         </div>
         <?php } ?>
-
-        <!-- <div class="btn-compo-modif">
-            <div class="left-bar"><p>Madam Razalt</p></div>
-            <div class="right-bar">
-                <a class="text-nav-admin sous-ligne" href="#apropos">Modifier</a>
-                <a href="#">Delete</a>
-            </div>
-        </div>
-        <div class="btn-compo-modif">
-            <div class="left-bar"><p>Aime moi comme tu french</p></div>
-            <div class="right-bar">
-                <a class="text-nav-admin sous-ligne" href="#apropos">Modifier</a>
-                <a href="#">Delete</a>
-            </div>
-        </div>
-        <div class="btn-compo-modif">
-            <div class="left-bar"><p>La vie d’Alex Joset</p></div>
-            <div class="right-bar">
-                <a class="text-nav-admin sous-ligne" href="#apropos">Modifier</a>
-                <a href="#">Delete</a>
-            </div>
-        </div>
-        <div class="btn-compo-modif">
-            <div class="left-bar"><p>Sic Sic Sic</p></div>
-            <div class="right-bar">
-                <a class="text-nav-admin sous-ligne" href="#apropos">Modifier</a>
-                <a href="#">Delete</a>
-            </div>
-        </div> -->
     </div>
     <!-- Footer -->
     <?php 

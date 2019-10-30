@@ -15,7 +15,7 @@
       import App from "./src/App.js";
       App.load().then(() => App.main());
 	  </script>
-    <title>Connection</title>
+    <title>Connexion</title>
   </head>
   <body>
     <div class="container">
