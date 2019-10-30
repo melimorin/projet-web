@@ -28,16 +28,16 @@
         
     </div>
     <div class="container container-admin-color espace-titre">
-        <form class="padding-boite-admin">
+        <form action="loginSubmit.php" class="padding-boite-admin">
         <div class="form-group onglet">
         <h2 class="titre espace-titre ">Se connecter</h2>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Adresse courriel">
+            <input name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Adresse courriel">
         </div>
         <div class="form-group onglet">
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Mot de passe">
+            <input name="password" type="password" class="form-control" id="exampleInputPassword1" placeholder="Mot de passe">
         </div>
-        <!-- <button type="submit" class="container-button text-gras text-light padding-bouton">Connexion</button> -->
-        <a href="accueiladmin.php">Administration ici</a>
+        <button type="submit" class="container-button text-gras text-light padding-bouton">Connexion</button>
+        <!-- <a href="accueiladmin.php">Administration ici</a> -->
         </form>
         <div class="box-admin"></div>
     </div>

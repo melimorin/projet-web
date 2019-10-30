@@ -5,18 +5,18 @@ export default class App {
         var flecheDroite = document.querySelector(".fleche-droite");
         var contenantCarroussel = document.querySelector(".img-compo");
 
+        if (contenantCarroussel != null) {
+            contenantCarroussel.style.left = "0px";
 
-        contenantCarroussel.style.left = "0px";
-
-        flecheGauche.addEventListener("click", e => {
-            var newLeft = parseInt(contenantCarroussel.style.left) - largeurDeplacement + "px";
-            contenantCarroussel.style.left = newLeft
-        })
-        flecheDroite.addEventListener("click", e => {
-            var newLeft = parseInt(contenantCarroussel.style.left) + largeurDeplacement + "px";
-            contenantCarroussel.style.left = newLeft
-        })
-        
+            flecheGauche.addEventListener("click", e => {
+                var newLeft = parseInt(contenantCarroussel.style.left) - largeurDeplacement + "px";
+                contenantCarroussel.style.left = newLeft
+            })
+            flecheDroite.addEventListener("click", e => {
+                var newLeft = parseInt(contenantCarroussel.style.left) + largeurDeplacement + "px";
+                contenantCarroussel.style.left = newLeft
+            })
+        }
 	}
 	
 	static load() {

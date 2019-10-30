@@ -3,10 +3,12 @@
 include("models/bdPortfolio.php");
 
 function ajoutAccueil() {
+    $compositionNoms = listeCompositions();
     include("views/accueil.php");
 }
 
 function ajoutListeClientCompo() {
+    $compositionNoms = listeCompositions();
     include("views/listeclientcomposition.php");
 }
 
@@ -96,7 +98,7 @@ function ajoutSupprimerComposition() {
 function ajoutModifierComposition() {
     // modifierUtilisateur($_GET["id"]);
     // header("location:listeUtilisateursModifs.php");
-    $composition = getCompositions($_GET["id"]);
+    $compositions = getCompositions($_GET["id"]);
     include("views/modifierComposition.php");
 }
 
@@ -106,4 +108,8 @@ function modifierCompoSubmitController() {
     // redirection vers liste 
     header("location:listeCompoModif.php");
     exit();
+}
+
+function loginSubmit() {
+    loginModels();
 }

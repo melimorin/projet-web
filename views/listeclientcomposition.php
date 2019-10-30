@@ -35,18 +35,23 @@
             <img class="fleche fleche-gauche" src="images/back.svg" alt="">
             <img class="fleche fleche-droite" src="images/next.svg" alt="">
             <div class="img-compo espace-titre">
+            <?php foreach ($compositionNoms as $compositionNom){ ?>
                 <div class="compo-individuel">
-                    <img src="images/SicSicSic.png" alt="">
+                
+                    <img src="images/<?php echo $compositionNom["urlimage"]; ?>" alt="">
                     <div class="black-overlay">
-                        <h2 class="espace-titre">Sic, sic...sic</h2>
-                        <h3 class="espace-texte">Bande sonore</h3>
-                        <p class="text-oeuvre"> Gabriel Forion fait équipe avec son vieux partenaire Daniel Laitue pour réaliser la musique du court métrage « Sic Sic Sic ». Une comédie sur l’attachement parental face au bagage génétique et autres projection personnelles de ceux-ci. Le court métrage a remporté le premier prix au festival du court métrage de Toronto.</p>
+                        <h2 class="espace-titre"><?php echo $compositionNom["titrecomposition"];?></h2>
+                        <h3 class="espace-texte"><?php echo $compositionNom["titreprojet"];?></h3>
+                        <p class="text-oeuvre"><?php echo $compositionNom["description"];?></p>
                     </div>
                     <audio controls>
-                        <source src="audio/SicSicSic.mp3" type="audio/mpeg">
+                        <source src="<?php echo $compositionNom["urlaudio"];?>" type="audio/mpeg">
                     </audio>
                 </div>
-                <div class="compo-individuel">
+
+                <?php }; ?>
+
+                <!-- <div class="compo-individuel">
                     <img src="images/AlexJoset.png" alt="">
                     <div class="black-overlay">
                         <h2 class="espace-titre">La vie d'Alex Joset</h2>
@@ -79,7 +84,7 @@
                         <source src="audio/AimeMoiFrench.mp3" type="audio/mpeg">
                     </audio>
                 </div>
-            </div>
+            </div> -->
         </div>
 
 

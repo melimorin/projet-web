@@ -43,8 +43,8 @@
       <div class="container container-admin-color espace-titre padding-admin">
         <form action="modifierSubmit.php" method="post">
             <input type="hidden" name="id" value="<?php echo $composition["id"]; ?>">
-            <input type="text" name="titreprojet" placeholder="" value="<?php echo $composition["titrecomposition"]; ?>">
-            <input type="text" name="titrecomposition" placeholder="" value="<?php echo $composition["titreprojet"]; ?>">
+            <input type="text" name="titrecomposition" placeholder="" value="<?php echo $composition["titrecomposition"]; ?>">
+            <input type="text" name="titreprojet" placeholder="" value="<?php echo $composition["titreprojet"]; ?>">
             <input type="text" name="description" placeholder="" value="<?php echo $composition["description"]; ?>">
             <input type="file" name="urlaudio" placeholder="" value="<?php echo $composition["urlaudio"]; ?>">
             <input type="file" name="urlimage" placeholder="" value="<?php echo $composition["urlimage"]; ?>">

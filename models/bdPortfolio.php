@@ -109,3 +109,51 @@ function modifierComposition($id, $titreCompo, $titreProjet, $compoDescription, 
     $resultats = mysqli_query($bdd, $sql);
     return $resultats;
 }
+
+session_start();
+
+function loginModels() {
+    global $bdd;
+    if (isset($_POST["courriel"]) == false) {
+        header("location:login.php");
+        exit();
+    }
+    
+    $username = $_POST["courriel"];
+    $password = md5($_POST["motdepasse"]);
+    
+    $sql = "
+    SELECT *
+    FROM listeutilisateurs
+    WHERE
+        courriel = '" . $username . "' AND
+        motdepasse = '" . $password . "';
+    ";
+    
+    $resultats = mysqli_query($bdd, $sql);
+    
+    if (!$resultats) {
+        echo mysqli_error($bdd);
+        exit();
+    }
+    
+    if (mysqli_num_rows($resultats) > 0) {
+    
+        $utilisateur = mysqli_fetch_assoc($resultats);
+    
+    
+    
+        header("location:login.php");
+        $_SESSION["estConnecte"] = true;
+        $_SESSION["nom"] = $utilisateur["nom"];
+        $_SESSION["prenom"] = $utilisateur["prenom"];
+    
+    } else {
+    
+        echo "Erreur de connexion";
+        $_SESSION["estConnecte"] = false;
+    
+    }
+    
+    echo $sql;
+}
