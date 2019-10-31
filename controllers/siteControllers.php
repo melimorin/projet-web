@@ -23,14 +23,17 @@ function ajoutAccueilAdmin() {
 }
 
 function ajoutNouvelUtilisateur() {
+    include("utils/secure.php");
     include("views/nouvelUtilisateur.php");
 }
 
 function ajoutNouvelleCompo() {
+    include("utils/secure.php");
     include("views/nouvelleCompo.php");
 }
 
 function ajoutListeCompoModif() {
+    include("utils/secure.php");
     include("views/listeCompoModif.php");
 }
 
