@@ -10,36 +10,26 @@
     <link rel="stylesheet" href="style/style.css">
     <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-
-    <script type="module">
-      import App from "./src/App.js";
-      App.load().then(() => App.main());
-	  </script>
-    <title>Connexion</title>
+    <title>Inscription a l'infolettre</title>
   </head>
   <body>
     <div class="container">
 
     <!-- Barre de naviguation -->
         <?php 
-            $page = "connexion";
+            $page = "nouvelutilisateur";
             include("views/include/navbar.php");
         ?>
+
         
     </div>
     <div class="container container-admin-color espace-titre">
-        <form action="loginSubmit.php" class="padding-boite-admin" method="post">
-        <div class="form-group onglet">
-        <h2 class="titre espace-titre ">Se connecter</h2>
-            <input name="email" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Adresse courriel">
-        </div>
-        <div class="form-group onglet">
-            <input name="password" type="password" class="form-control" id="exampleInputPassword1" placeholder="Mot de passe">
-        </div>
-        <button type="submit" class="container-button text-gras text-light padding-bouton">Connexion</button>
-        <!-- <a href="accueiladmin.php">Administration ici</a> -->
-        </form>
-        <div class="box-admin"></div>
+      <form class="padding-boite-admin">
+      <?php 
+          include("views/include/navbarAdmin.php");
+      ?>
+        <h2 class="sous-titre espace-titre ">Vous etes inscrit</h2>
+        <p><a href="listeUtilisateursModifs.php">Retour à la liste utilisateurs</a></p>
     </div>
     <!-- Footer -->
     <?php 

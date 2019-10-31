@@ -45,9 +45,9 @@
                 <p class="text espace-titre">Nous vous proposons de découvrir les nouvelles trames sonores.</p>
             </div>
             <div class="img-derniere-compo espace-titre">
-                <?php foreach ($compositionNoms as $compositionNom){ ?>
-                <a href="listeclientcomposition.php"><img class="image overlay" src="images/<?php echo $compositionNom["urlimage"]; ?>" alt=""></a>
-                <?php } ?>
+            <?php foreach ($compositionNoms as $compositionNom){ ?>
+            <a href="listeclientcomposition.php"><img class="image overlay" src="images/<?php echo $compositionNom["urlimage"]; ?>" alt=""></a>
+            <?php } ?>
             </div>
         </div>
 

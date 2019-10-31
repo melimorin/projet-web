@@ -16,8 +16,8 @@
             <h3 class="espace-texte">Infolettres</h3>
             <p class="text-gras espace-texte">Pour recevoir du contenu et des nouvelles exclusives, <br> inscrivez-vous a mon infolettre.</p>
             <p class="text-gras">Adresse courriel</p>
-            <form action="">
-                <input type="email">
+            <form action="bienRecuCourriel.php" method="post">
+                <input name="courriel" type="email">
             </form>
             <span class="container-button espace-texte">
                 <a class="text-gras" href="#">Envoyer</a>
@@ -26,4 +26,3 @@
         
     </div>
 </div>
-

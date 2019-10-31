@@ -1,9 +1,10 @@
 <?php
 
+session_start();
 include("models/bdPortfolio.php");
 
 function ajoutAccueil() {
-    $compositionNoms = listeCompositions();
+    $compositionNoms = listeCompositionsAcuueil();
     include("views/accueil.php");
 }
 
@@ -17,6 +18,7 @@ function ajoutSeConnecter() {
 }
 
 function ajoutAccueilAdmin() {
+    include("utils/secure.php");
     include("views/accueiladmin.php");
 }
 
@@ -61,10 +63,22 @@ function ajoutUtilisateurController() {
     $utilisateurs = array(
         "nom" => $_POST["nom"],
         "courriel" => $_POST["courriel"],
-        "motdepasse" => $_POST["motdepasse"],
+        "motdepasse" => md5($_POST["motdepasse"]),
     );
 // Appel de la fonction du model pour sauvegarder dans la bd
 ajoutUtilisateurs($utilisateurs);
+    // Retourne la page html de succes
+    include("views/ajoutSucces.php");
+}
+function ajoutCourrielController() {
+    $utilisateurs = array(
+        "courriel" => $_POST["courriel"]
+    );
+// Appel de la fonction du model pour sauvegarder dans la bd
+ajoutCourrielNewsletter();
+    // Appel de la fonction du model pour sauvegarder dans la bd
+    ajoutCourriel($newsletter);
+
     // Retourne la page html de succes
     include("views/ajoutSucces.php");
 }

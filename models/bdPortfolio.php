@@ -59,9 +59,21 @@ function ajoutComposition($compositions) {
     global $bdd;
     $sql = "
     INSERT INTO listeoeuvres
-        (description, titreprojet, titrecomposition, urlaudio, urlimage)
+        (description, titreprojet, titrecomposition, urlaudio, urlimage, date)
     VALUES
-    ('". $compositions["description"] ."','". $compositions["titreprojet"] ."','". $compositions["titrecomposition"] ."','". $compositions["urlaudio"] ."','". $compositions["urlimage"] ."')
+    ('". $compositions["description"] ."','". $compositions["titreprojet"] ."','". $compositions["titrecomposition"] ."','". $compositions["urlaudio"] ."','". $compositions["urlimage"] ."', NOW())
+    ";
+
+    mysqli_query($bdd,$sql);
+}
+
+function ajoutCourriel($newsletter) {
+    global $bdd;
+    $sql = "
+    INSERT INTO newsletter
+        (courriel)
+    VALUES
+    ('". $newsletter["courriel"] ."')
     ";
 
     mysqli_query($bdd,$sql);
@@ -89,6 +101,20 @@ function listeCompositions() {
     return $resultats;
 }
 
+function listeCompositionsAcuueil() {
+    global $bdd;
+
+    $sql = "
+        SELECT id, description, titreprojet, titrecomposition, urlaudio, urlimage
+        FROM listeoeuvres
+        ORDER BY date DESC
+        LIMIT 3
+
+    ";
+    $resultats = mysqli_query($bdd, $sql);
+    return $resultats;
+}
+
 function supprimerComposition($id) {
     global$bdd;
     $sql = "
@@ -110,17 +136,15 @@ function modifierComposition($id, $titreCompo, $titreProjet, $compoDescription, 
     return $resultats;
 }
 
-session_start();
-
 function loginModels() {
     global $bdd;
-    if (isset($_POST["courriel"]) == false) {
-        header("location:login.php");
+    if (isset($_POST["email"]) == false) {
+        header("location:seconnecter.php");
         exit();
     }
     
-    $username = $_POST["courriel"];
-    $password = md5($_POST["motdepasse"]);
+    $username = $_POST["email"];
+    $password = md5($_POST["password"]);
     
     $sql = "
     SELECT *
@@ -132,26 +156,26 @@ function loginModels() {
     
     $resultats = mysqli_query($bdd, $sql);
     
+
     if (!$resultats) {
         echo mysqli_error($bdd);
         exit();
     }
     
+    
     if (mysqli_num_rows($resultats) > 0) {
     
         $utilisateur = mysqli_fetch_assoc($resultats);
-    
-    
-    
-        header("location:login.php");
         $_SESSION["estConnecte"] = true;
         $_SESSION["nom"] = $utilisateur["nom"];
-        $_SESSION["prenom"] = $utilisateur["prenom"];
+
+        header("location:accueiladmin.php");
+        exit();
     
     } else {
-    
-        echo "Erreur de connexion";
         $_SESSION["estConnecte"] = false;
+        header("location:seconnecter.php");
+        exit();
     
     }
     
