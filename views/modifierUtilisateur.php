@@ -41,7 +41,7 @@
         include("views/include/navbarAdmin.php");
     ?>
       <div class="container container-admin-color espace-titre padding-admin">
-        <form action="modifierSubmit.php" method="post">
+        <form action="modifierUtilisateurSubmit.php" method="post">
             <input type="hidden" name="id" value="<?php echo $nom["id"]; ?>">
             <input type="text" name="nom" placeholder="" value="<?php echo $nom["nom"]; ?>">
             <input type="text" name="courriel" placeholder="" value="<?php echo $nom["courriel"]; ?>">
