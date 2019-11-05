@@ -79,7 +79,7 @@ function ajoutCourriel($newsletter) {
     mysqli_query($bdd,$sql);
 }
 
-function getCompositions($id) {
+function getComposition($id) {
     global$bdd;
     $sql = "
         SELECT id, description, titreprojet, titrecomposition, urlaudio, urlimage

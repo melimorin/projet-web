@@ -92,12 +92,23 @@ function ajoutListeCompositionsModifs() {
 }
 
 function ajoutCompositionController() {
+    $imageTemporaire = $_FILES["urlimage"]["tmp_name"];
+    $nomImage = basename($_FILES["urlimage"]["name"]);
+    $destinationImage = "uploads/" . $nomImage;
+    move_uploaded_file($imageTemporaire, $destinationImage);
+    
+    $audioTemporaire = $_FILES["urlaudio"]["tmp_name"];
+    $nomAudio = basename($_FILES["urlaudio"]["name"]);
+    $destinationAudio = "uploads/" . $nomAudio;
+    move_uploaded_file($audioTemporaire, $destinationAudio);
+
+    
     $compositions = array(
         "titrecomposition" => $_POST["titrecomposition"],
         "titreprojet" => $_POST["titreprojet"],
         "description" => $_POST["description"],
-        "urlaudio" => $_POST["urlaudio"],
-        "urlimage" => $_POST["urlimage"],
+        "urlaudio" => $destinationAudio,
+        "urlimage" => $destinationImage,
     );
     // Appel de la fonction du model pour sauvegarder dans la bd
     ajoutComposition($compositions);
@@ -115,7 +126,7 @@ function ajoutSupprimerComposition() {
 function ajoutModifierComposition() {
     // modifierUtilisateur($_GET["id"]);
     // header("location:listeUtilisateursModifs.php");
-    $compositions = getCompositions($_GET["id"]);
+    $composition = getComposition($_GET["id"]);
     include("views/modifierComposition.php");
 }
 

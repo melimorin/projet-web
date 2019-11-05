@@ -38,7 +38,7 @@
         <?php foreach ($compositionNoms as $compositionNom){ ?>
             <div class="compo-individuel">
             
-                <img src="images/<?php echo $compositionNom["urlimage"]; ?>" alt="">
+                <img src="<?php echo $compositionNom["urlimage"]; ?>" alt="">
                 <div class="black-overlay">
                     <h2 class="espace-titre"><?php echo $compositionNom["titrecomposition"];?></h2>
                     <h3 class="espace-texte"><?php echo $compositionNom["titreprojet"];?></h3>

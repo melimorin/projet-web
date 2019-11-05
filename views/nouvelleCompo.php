@@ -25,7 +25,7 @@
 
 
     <div class="container container-admin-color espace-titre">
-      <form action="ajoutsuccescompos.php" method="post" class="padding-boite-admin">
+      <form action="ajoutsuccescompos.php" method="post" class="padding-boite-admin" enctype="multipart/form-data">
       <?php 
           include("views/include/navbarAdmin.php");
       ?>
