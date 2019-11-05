@@ -80,6 +80,7 @@ function ajoutCourriel($newsletter) {
 }
 
 
+
 function getComposition($id) {
     global$bdd;
     $sql = "
