@@ -79,6 +79,7 @@ function ajoutCourriel($newsletter) {
     mysqli_query($bdd,$sql);
 }
 
+
 function getComposition($id) {
     global$bdd;
     $sql = "
